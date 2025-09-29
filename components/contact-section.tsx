@@ -31,6 +31,7 @@ export function ContactSection() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: formData.name,
+          email:formData.email,
           mobile: formData.phone,
           workspace: formData.spaceType,
         }),
