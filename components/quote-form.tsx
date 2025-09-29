@@ -54,6 +54,7 @@ export function QuoteForm({
         },
         body: JSON.stringify({
           name: formData.name,
+          email: formData.email, 
           mobile: formData.mobile,
           workspace: selectedWorkspace,
         }),
