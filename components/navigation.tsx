@@ -82,9 +82,7 @@ export function Navigation() {
                   {item.name}
                 </a>
               ))}
-              <div className="px-3 py-2">
-                <Button className="w-full">Schedule Tour</Button>
-              </div>
+              
             </div>
           </div>
         )}
